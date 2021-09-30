@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>Cancel-Your-Appointment</title>
+</head>
+<body>
+	<header>
+		<h1 align="center">You may cancel any appointment that is scheduled after three days</h1>
+	</header>
+	<section>
+		<h2 align="center">APPOINTMENT CANCELATION</h2><br>  
+	    <form  action="DoctorCancelAppServlet">   
+	    	<table align="center">
+		    	<tr>
+		    		<th>DATE:</th><th><input type="date" min="2021-01-01" name="date"/></th>
+		    	</tr>
+		        <tr>
+		    		<th>TIME:</th><th> <input type="time" name="time"/></th>
+		    	</tr>
+    			<tr>
+    				<th></th><th><input type="submit" value="submit"> </th>
+    			</tr>
+	    	</table>  
+	    </form>  
+	</section>
+
+
+</body>
+</html>

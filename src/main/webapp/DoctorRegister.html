@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Doctor Registration</title>
+</head>
+<body>
+	<section>
+		<h2 align="center">REGISTRATION</h2><br>  
+	    <form  action="DoctorRegisterServlet">   
+	    	<table align="center">
+		    	<tr>
+		    		<th>Username:</th><th><input type="text" name="username"/></th>
+		    	</tr>
+		        <tr>
+		    		<th>Password:</th><th> <input type="password" name="password"/></th>
+		    	</tr>
+		    	 <tr>
+		    		<th>Name:</th><th> <input type="text" name="name"/></th>
+		    	</tr>
+		    	<tr>
+		    		<th>Surname:</th><th> <input type="text" name="surname"/></th>
+		    	</tr>
+		    	<tr>
+		    		<th>specialty:</th>
+		    		<th> 
+		    		<select name="specialty">
+					  <option value="Pathologos">Pathologos</option>
+					  <option value="Ofthalmiatros">Ofthalmiatros</option>
+					  <option value="Orthopedikos">Orthopedikos</option>
+					</select></th>
+		    	</tr>
+    			<tr>
+    				<th></th><th><input type="submit" value="Register"> </th>
+    			</tr>
+	    	</table> 
+	    </form>  
+	</section>
+	<footer>
+		<article align="right">
+			<a href="index.html" ><button type="button">HOME</button></a>
+		</article>	
+	</footer>
+</body>
+</html>
